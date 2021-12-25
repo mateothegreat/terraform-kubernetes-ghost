@@ -98,3 +98,19 @@ variable "node_selector" {
     default     = null
 
 }
+
+variable "use_loadbalancer" {
+
+    type        = bool
+    description = "sets the service type to LoadBalancer (public facing) vs. ClusterIP (internal only)"
+    default     = false
+
+}
+
+variable "create_ingress" {
+
+    type        = bool
+    description = "create an Ingress object for mapping hostnames via an ingress-controller"
+    default     = false
+
+}

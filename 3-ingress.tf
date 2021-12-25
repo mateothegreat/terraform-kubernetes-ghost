@@ -1,5 +1,7 @@
 resource "kubernetes_ingress" "ingress" {
 
+    count = var.create_ingress ? 1 : 0
+
     metadata {
 
         name      = var.name

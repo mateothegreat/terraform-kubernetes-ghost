@@ -15,6 +15,8 @@ resource "kubernetes_service" "service" {
 
     spec {
 
+        type = var.use_loadbalancer ? "LoadBalancer" : "ClusterIP"
+
         selector = {
 
             app = var.name
