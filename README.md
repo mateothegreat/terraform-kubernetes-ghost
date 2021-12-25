@@ -10,7 +10,8 @@ The following resources will be created:
 * Service
 * Ingress
 
-> See the accompanying blog post at https://matthewdavis.io/highly-available-ghost-blog-on-kubernetes!
+> See the accompanying blog post at https://matthewdavis.io/highly-available-ghost-blog-on-kubernetes
+> and the Terraform module at https://registry.terraform.io/modules/mateothegreat/ghost/kubernetes/latest!
 
 # Example
 
