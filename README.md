@@ -10,6 +10,8 @@ The following resources will be created:
 * Service
 * Ingress
 
+> See the accompanying blog post at https://matthewdavis.io/highly-available-ghost-blog-on-kubernetes!
+
 # Example
 
 The following will create two deployments for each site listed in the sites list:
